@@ -1,0 +1,71 @@
+Test Scenario 1:
+
+Checking the Login Functionalities as a basic, premium, admin user.
+
+Test Steps:
+
+Basic User:
+
+1.Log in as a basic user.
+2. Trying to use all the features such as basic, premium, admin settings.
+
+Expected Result:
+
+The basic user should have access only to limited features. When trying to access premium or admin-only features, we will get “Access Denied” or similar error message.
+
+Premium User:
+
+1.Log in as a Premium user.
+2. Trying to use all the features such as premium, admin settings.
+
+Expected Result:
+
+The premium user should have access only to premium and basic features. When trying to access admin-only features, we will get “Access Denied” or similar error message.
+
+Admin User:
+
+1.Log in as a Admin user.
+2. We can access all the features over the application.
+
+Expected Result:
+
+The admin user should have full access to all the features, including advanced settings, without any restrictions or error messages.
+
+Test Scenario 2:
+
+Creating and Deleting the accounts.
+
+Test Steps:
+
+Account Creation:
+
+1.Creating account with valid credentials.
+2.Trying to Signup with the E-mail.
+
+Expected Result:
+
+1.Account creation should succeed only when the password meets the required complexity. If it doesn’t, an error should be shown indicating the password requirements.
+
+2.After successful account creation user should receive their confirmation mail to their corresponding mail.
+
+Account Deletion:
+
+1.Log in to an existing account.
+2.Navigate to account settings and select the option to delete the account.
+
+Expected Result:
+
+1.Attempt to log-in back in using the deleted account credentials, an error indicating that the account no longer exists..
+
+Test Scenario 3:
+
+Performance and Unauthorized access.
+
+Test Steps:
+
+1.Log in as a basic, premium, admin users and explore all available features, menus.
+2.To check all the features of the mobile application, whether the page is running/loading without any crashes or performance issues.
+
+Expected Result:
+
+1.As a basic or premium user, attempt to access admin-only features the app should display an error message as “Restricted Access” or “Access Denied” .
